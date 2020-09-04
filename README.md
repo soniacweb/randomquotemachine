@@ -2,16 +2,16 @@
 
 ### randomquotemachine
 
-Part of the freecodecamp challenge. App generates random quotes which the user can then share via posts on twitter and Reddit. 
+<a href="https://soniacweb.github.io/randomquotemachine">Demo can be found here</a>
+
+Part of the freecodecamp challenge. <strong>randomquotemachine</strong> is a desktop app that generates random quotes which the user can then share via posts on twitter and Reddit. 
 
 #### Technoligies:
-
+##### This project was bootstrapped with Create React App.
 React
 FontAwesome
 
-#### This project was bootstrapped with Create React App.
-
-Available Scripts
+#### Available Scripts
 In the project directory, you can run:
 
 - npm i
