@@ -1,5 +1,5 @@
 {
-  "homepage":"https://soniacweb.github.io/randomquotemachine",
+  "homepage": "https://soniacweb.github.io/randomquotemachine",
   "name": "node-challenge-quote-server",
   "version": "0.1.0",
   "license": "MIT",
@@ -20,8 +20,8 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
