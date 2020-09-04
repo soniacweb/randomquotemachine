@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter, faRedditSquare, faTumblrSquare} from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faRedditSquare } from '@fortawesome/free-brands-svg-icons'
 
 import './App.scss';
 
@@ -11,7 +11,7 @@ let quoteDBURL = 'https://gist.githubusercontent.com/camperbot/5a022b72e96c4c958
   function App() {
    const [quote, setQuote] = useState('Click the button and the truth shall set you free')
    const [author, setAuthor] = useState('Me')
-   const [randomNumber, setRandomNumber] = useState(0)
+  //  const [randomNumber, setRandomNumber] = useState(0)
    const [quotesArray, setQuotesArray] = useState(null)
    const [color, setColor] = useState('#282c34')
 
@@ -35,7 +35,7 @@ useEffect(() => {
   // linking the random number to quotes
   const fetchRandomQuote = () => {
     let randomInteger = Math.floor(quotesArray.length * Math.random())
-    setRandomNumber(randomInteger)
+    // setRandomNumber(randomInteger)
     setQuote(quotesArray[randomInteger].quote)
     setAuthor(quotesArray[randomInteger].author)
     setColor(COLORS[randomInteger])
@@ -73,7 +73,7 @@ useEffect(() => {
     
           <button id="new-quote" onClick={()=> fetchRandomQuote()}
           style={{backgroundColor:color}}
-          >Generate Random Number</button>
+          >Generate Random Quote</button>
             </div>
           </div>       
         </header>  
